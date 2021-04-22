@@ -1,0 +1,6 @@
+framework module LinPodTestSDK {
+  umbrella header "LinPodTestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

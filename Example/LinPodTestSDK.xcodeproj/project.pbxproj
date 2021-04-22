@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		04C5254DACE5FD80D0567730 /* Pods_LinPodTestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinPodTestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF2A7DF7803BA34C2CD58F1 /* Pods-LinPodTestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPodTestSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-LinPodTestSDK_Tests/Pods-LinPodTestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		492CD9D931BE45916C5D8A43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		492CD9D931BE45916C5D8A43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LinPodTestSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinPodTestSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		719C6FB8A14FFE7CDA7326BA /* Pods-LinPodTestSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPodTestSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LinPodTestSDK_Example/Pods-LinPodTestSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE0E06A1EA443DBA6AFE39EE /* LinPodTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LinPodTestSDK.podspec; path = ../LinPodTestSDK.podspec; sourceTree = "<group>"; };
+		AE0E06A1EA443DBA6AFE39EE /* LinPodTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LinPodTestSDK.podspec; path = ../LinPodTestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF2C3C2F5CCF289BBB72AA81 /* Pods-LinPodTestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPodTestSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LinPodTestSDK_Tests/Pods-LinPodTestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B779A83F0FC9DD932D5F5101 /* Pods-LinPodTestSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPodTestSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LinPodTestSDK_Example/Pods-LinPodTestSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E9CC09541483A4C936D9F715 /* Pods_LinPodTestSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinPodTestSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2E16D0B75A4ABA0EE7CB9C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2E16D0B75A4ABA0EE7CB9C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				AF2C3C2F5CCF289BBB72AA81 /* Pods-LinPodTestSDK_Tests.debug.xcconfig */,
 				3DF2A7DF7803BA34C2CD58F1 /* Pods-LinPodTestSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - LinPodTestSDK (0.1.0)
+
+DEPENDENCIES:
+  - LinPodTestSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LinPodTestSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinPodTestSDK: 473953ea953ab15d3197b3687c2a92c6d3a29da5
+
+PODFILE CHECKSUM: 4565879b81563adc352f11e429b2a7009e07fdea
+
+COCOAPODS: 1.10.1
