@@ -7,7 +7,6 @@
 //
 
 #import "LINViewController.h"
-
 @interface LINViewController ()
 
 @end

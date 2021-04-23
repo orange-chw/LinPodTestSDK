@@ -7,69 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08FC6A70DB86683AFBF37ACB343FC917 /* LinTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C30FB262B60D169D5950EB96B80C256F /* LinTestObject.m */; };
 		1CF1F3D250CA10BBDCBF20B0EA780ADC /* Pods-LinPodTestSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D37A216C251DF20D99F6324FD0ECE /* Pods-LinPodTestSDK_Example-dummy.m */; };
 		25616F4E07D1A240BFF9040F76D21993 /* Pods-LinPodTestSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BEE6194C095CD888639B280D185121 /* Pods-LinPodTestSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84A8F27967B00C6FC9C4D213655D5A59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		886300E2F5DD2D1BD52E2CF7026BBE6E /* LinPodTestSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1B04EF8B3869222E46292EE9BD6B66 /* LinPodTestSDK-dummy.m */; };
+		36C5CC479B3BF9391E03D6D04527F5B9 /* LinPodTestSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC265625EA469F69F695DE5DB636F37B /* LinPodTestSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47625B2161E8768DB9C66C71EA1FB8AF /* LinPodTestSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599F6043F8C7784D15EDB70F1EE81306 /* LinPodTestSDK-dummy.m */; };
+		8FC3E501652E27FC60A9AC5BCB6C8C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BF0B8516C95B9CABD53D5D1F6EC9E4EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C70DA55B42CB297E14D97F1330276F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CB3E681C8DC6E20D4C6E055E036352DC /* Pods-LinPodTestSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 317D50AADF900D471D3524FFF0B553F0 /* Pods-LinPodTestSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB1C0136AA9685AF37D00AAA05284CA3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FC88F18C4C5EE5C4D47EA0C7E94F613D /* ReplaceMe.m */; };
 		DE4D653F6AA05BB5BBBA575877F51D06 /* Pods-LinPodTestSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B03ED8522A08974AA05991CB5DC73 /* Pods-LinPodTestSDK_Tests-dummy.m */; };
-		F7808A41E392EBF90E441B8C273B679E /* LinPodTestSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F17FA6219D543E05220E0090FC7DA2 /* LinPodTestSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE50CB492E64189C1202972816F74C2F /* LinTestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A232F3F524F2D9C544A9B067EDFCA4 /* LinTestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D39CAD0F7140F951DBEDBB6D892F3C78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2E401C46C46A8C1FA95F56B9C2BA6AC;
-			remoteInfo = "Pods-LinPodTestSDK_Example";
-		};
-		E59AB8B14595DF44ABD04BAAB1A6C67A /* PBXContainerItemProxy */ = {
+		5D347955B57D1ECD0EE678D6EF72B2A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6948E08396A894A7FCA602CD3FBBC424;
 			remoteInfo = LinPodTestSDK;
 		};
+		C9303A26EEFE14FBDB3475598AFA74EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E401C46C46A8C1FA95F56B9C2BA6AC;
+			remoteInfo = "Pods-LinPodTestSDK_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01072AA01F8A1AEAEDD907CA80D401AC /* LinPodTestSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinPodTestSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0283BEC88124965AA2E9878530534B72 /* Pods_LinPodTestSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinPodTestSDK_Example.framework; path = "Pods-LinPodTestSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C37B862741D3E2CBA6061A4F0A7A73 /* Pods-LinPodTestSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPodTestSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		088438829CEEED4C57E0C1C015D5F550 /* LinPodTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinPodTestSDK.debug.xcconfig; sourceTree = "<group>"; };
-		097EAAB139539C66571FEBA40743F7DD /* LinPodTestSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LinPodTestSDK-Info.plist"; sourceTree = "<group>"; };
 		0D26AE44D775A4FE9E702A98E0746B33 /* Pods-LinPodTestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPodTestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FFB290DB7392B128DED5BA5B73067F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2396A8E96CC27ACB5A37896FF0ACC785 /* LinPodTestSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LinPodTestSDK-Info.plist"; sourceTree = "<group>"; };
 		2F6B03ED8522A08974AA05991CB5DC73 /* Pods-LinPodTestSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinPodTestSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		317D50AADF900D471D3524FFF0B553F0 /* Pods-LinPodTestSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinPodTestSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		40F17FA6219D543E05220E0090FC7DA2 /* LinPodTestSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPodTestSDK-umbrella.h"; sourceTree = "<group>"; };
-		61314AA34F532166F455D5B8F35B347D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F657E81FB4D485601F8DFA78C56FA17 /* LinPodTestSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinPodTestSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F44E7F718176E5341ED40DC87FD0410 /* LinPodTestSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LinPodTestSDK.modulemap; sourceTree = "<group>"; };
+		599F6043F8C7784D15EDB70F1EE81306 /* LinPodTestSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinPodTestSDK-dummy.m"; sourceTree = "<group>"; };
 		66695A53F72522ADE817D0AD19B46987 /* Pods-LinPodTestSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinPodTestSDK_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F96CDD905017E71F5651EBC62C5EF1D /* Pods-LinPodTestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPodTestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D0AD3D95FB4D0F8ACF6A0043BEE7005 /* Pods-LinPodTestSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinPodTestSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		918CCCE6BE5C8EB506056B273567E671 /* Pods-LinPodTestSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPodTestSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9288CB6B3CDD9DF8D3C74A359DBF9DF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94F64956217C7E1F93ADD9D39D9E4F70 /* LinPodTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinPodTestSDK.release.xcconfig; sourceTree = "<group>"; };
 		98BEE6194C095CD888639B280D185121 /* Pods-LinPodTestSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinPodTestSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		99BB00DC62F06F75FDF4D952C9FCF4E0 /* LinPodTestSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LinPodTestSDK.modulemap; sourceTree = "<group>"; };
+		9A0A2A4D946BA4D6F18F6EA6C179F6B1 /* LinPodTestSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPodTestSDK-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8787C6822ED45D448F4864AB2E050F8 /* LinPodTestSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPodTestSDK-prefix.pch"; sourceTree = "<group>"; };
 		A8C161F79DED98659E2E115264EC6994 /* Pods-LinPodTestSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinPodTestSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		AC265625EA469F69F695DE5DB636F37B /* LinPodTestSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPodTestSDK-umbrella.h"; sourceTree = "<group>"; };
 		B86186DF50CD49B6E24802A7E75D641C /* Pods-LinPodTestSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinPodTestSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B88297FEB04DCDBD228FD652E5BF6D15 /* LinPodTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LinPodTestSDK.framework; path = LinPodTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8D37A216C251DF20D99F6324FD0ECE /* Pods-LinPodTestSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinPodTestSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		BF1B04EF8B3869222E46292EE9BD6B66 /* LinPodTestSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinPodTestSDK-dummy.m"; sourceTree = "<group>"; };
 		BFA27852AEDDC2BE9910C2BE245A836B /* Pods_LinPodTestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinPodTestSDK_Tests.framework; path = "Pods-LinPodTestSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C83A20DCA68D074013C3F8E338666F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C30FB262B60D169D5950EB96B80C256F /* LinTestObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinTestObject.m; path = LinPodTestSDK/Classes/LinTestObject.m; sourceTree = "<group>"; };
+		D1A232F3F524F2D9C544A9B067EDFCA4 /* LinTestObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinTestObject.h; path = LinPodTestSDK/Classes/LinTestObject.h; sourceTree = "<group>"; };
 		D4E0D641A2F9BF8B0B75317B64E580BF /* Pods-LinPodTestSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinPodTestSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCC8CE1175BFF7059879ACC9C5A67D1B /* Pods-LinPodTestSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinPodTestSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD54E41FD0196C1453C61E29466A735C /* Pods-LinPodTestSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinPodTestSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		EC7D5FA7ABCA1F7088CB025659B4CE9E /* Pods-LinPodTestSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinPodTestSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		ECA356E668162D0F5C26EC98A696429B /* LinPodTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinPodTestSDK.debug.xcconfig; sourceTree = "<group>"; };
 		F1B9707C58C24C3DDABF32F1AD428C39 /* Pods-LinPodTestSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinPodTestSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F7556792F734B0F2DC0B1F0C72A69373 /* LinPodTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinPodTestSDK.release.xcconfig; sourceTree = "<group>"; };
-		FC88F18C4C5EE5C4D47EA0C7E94F613D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LinPodTestSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8338C56E02E2881FD530C5CD0F786D27 /* Frameworks */ = {
+		6FB7A74A8F9001513A5ACC63155901E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A8F27967B00C6FC9C4D213655D5A59 /* Foundation.framework in Frameworks */,
+				8FC3E501652E27FC60A9AC5BCB6C8C1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ACD07FC9A01A57E9A6F6558F9EBA38C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB290DB7392B128DED5BA5B73067F2 /* LICENSE */,
+				3F657E81FB4D485601F8DFA78C56FA17 /* LinPodTestSDK.podspec */,
+				9288CB6B3CDD9DF8D3C74A359DBF9DF0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CD16F2C9375EE5FF9A2ACF08C619113 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D810CA2D99C3C57966A6E68C2C4DB /* LinPodTestSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		4DBB5985B91DBB3896281757B370D5B2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,40 +137,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66E7DF592893A47F7F0846FF646D2889 /* LinPodTestSDK */ = {
+		681ECD813266FAC815235FDFEFAB2D39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC88F18C4C5EE5C4D47EA0C7E94F613D /* ReplaceMe.m */,
-				A677C12857ED7143BF57B1DEDA8EEDE7 /* Pod */,
-				6EA824F3592B7689E01E3B66ED1429E7 /* Support Files */,
-			);
-			name = LinPodTestSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6EA824F3592B7689E01E3B66ED1429E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				99BB00DC62F06F75FDF4D952C9FCF4E0 /* LinPodTestSDK.modulemap */,
-				BF1B04EF8B3869222E46292EE9BD6B66 /* LinPodTestSDK-dummy.m */,
-				097EAAB139539C66571FEBA40743F7DD /* LinPodTestSDK-Info.plist */,
-				A8787C6822ED45D448F4864AB2E050F8 /* LinPodTestSDK-prefix.pch */,
-				40F17FA6219D543E05220E0090FC7DA2 /* LinPodTestSDK-umbrella.h */,
-				088438829CEEED4C57E0C1C015D5F550 /* LinPodTestSDK.debug.xcconfig */,
-				F7556792F734B0F2DC0B1F0C72A69373 /* LinPodTestSDK.release.xcconfig */,
+				4F44E7F718176E5341ED40DC87FD0410 /* LinPodTestSDK.modulemap */,
+				599F6043F8C7784D15EDB70F1EE81306 /* LinPodTestSDK-dummy.m */,
+				2396A8E96CC27ACB5A37896FF0ACC785 /* LinPodTestSDK-Info.plist */,
+				9A0A2A4D946BA4D6F18F6EA6C179F6B1 /* LinPodTestSDK-prefix.pch */,
+				AC265625EA469F69F695DE5DB636F37B /* LinPodTestSDK-umbrella.h */,
+				ECA356E668162D0F5C26EC98A696429B /* LinPodTestSDK.debug.xcconfig */,
+				94F64956217C7E1F93ADD9D39D9E4F70 /* LinPodTestSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LinPodTestSDK";
 			sourceTree = "<group>";
 		};
-		A677C12857ED7143BF57B1DEDA8EEDE7 /* Pod */ = {
+		7A5D810CA2D99C3C57966A6E68C2C4DB /* LinPodTestSDK */ = {
 			isa = PBXGroup;
 			children = (
-				61314AA34F532166F455D5B8F35B347D /* LICENSE */,
-				01072AA01F8A1AEAEDD907CA80D401AC /* LinPodTestSDK.podspec */,
-				C83A20DCA68D074013C3F8E338666F69 /* README.md */,
+				D1A232F3F524F2D9C544A9B067EDFCA4 /* LinTestObject.h */,
+				C30FB262B60D169D5950EB96B80C256F /* LinTestObject.m */,
+				2ACD07FC9A01A57E9A6F6558F9EBA38C /* Pod */,
+				681ECD813266FAC815235FDFEFAB2D39 /* Support Files */,
 			);
-			name = Pod;
+			name = LinPodTestSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AA5A490982BD82AA2B988D4893BA61C9 /* Pods-LinPodTestSDK_Tests */ = {
@@ -173,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FA270FC14CE877BDB9040545D804B590 /* Development Pods */,
+				4CD16F2C9375EE5FF9A2ACF08C619113 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DFA2C62ED47BC12972A183A703FB6E6C /* Products */,
 				4DBB5985B91DBB3896281757B370D5B2 /* Targets Support Files */,
@@ -215,30 +226,23 @@
 			path = "Target Support Files/Pods-LinPodTestSDK_Example";
 			sourceTree = "<group>";
 		};
-		FA270FC14CE877BDB9040545D804B590 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66E7DF592893A47F7F0846FF646D2889 /* LinPodTestSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		11020F6D7E7B794400E59B67270B0172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5CC479B3BF9391E03D6D04527F5B9 /* LinPodTestSDK-umbrella.h in Headers */,
+				DE50CB492E64189C1202972816F74C2F /* LinTestObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		33DEADDB590C5DC4F246F593681C887A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25616F4E07D1A240BFF9040F76D21993 /* Pods-LinPodTestSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7022CF37F86A8D0D6E819B47815C085D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7808A41E392EBF90E441B8C273B679E /* LinPodTestSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		6948E08396A894A7FCA602CD3FBBC424 /* LinPodTestSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E271E910B5D29CBB2D7F88F52C6DB51F /* Build configuration list for PBXNativeTarget "LinPodTestSDK" */;
+			buildConfigurationList = 43086DC17B84176CCE3DA4C6D500DE52 /* Build configuration list for PBXNativeTarget "LinPodTestSDK" */;
 			buildPhases = (
-				7022CF37F86A8D0D6E819B47815C085D /* Headers */,
-				427878CD5F29A155AECCE7B822CC5693 /* Sources */,
-				8338C56E02E2881FD530C5CD0F786D27 /* Frameworks */,
-				F6F49CE44B47EB4F8AD7187C5DE6F990 /* Resources */,
+				11020F6D7E7B794400E59B67270B0172 /* Headers */,
+				29D07005A5F53948381FC2FF91DA3421 /* Sources */,
+				6FB7A74A8F9001513A5ACC63155901E7 /* Frameworks */,
+				19B5D5A83F2085CA4E426B1CFDA9AC7D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D64F25941587286D273D4E1CFCF0A675 /* PBXTargetDependency */,
+				C4653E3A938C55F3738AD23DEF7F97E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-LinPodTestSDK_Tests";
 			productName = "Pods-LinPodTestSDK_Tests";
@@ -302,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				187B0626C7DD7AC9D5BFAA19593E10AD /* PBXTargetDependency */,
+				33432E2428D70ACB426C5A52F563FFD3 /* PBXTargetDependency */,
 			);
 			name = "Pods-LinPodTestSDK_Example";
 			productName = "Pods-LinPodTestSDK_Example";
@@ -346,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5172DFED8FC15CD82AB06AEA45DA1D93 /* Resources */ = {
+		19B5D5A83F2085CA4E426B1CFDA9AC7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6F49CE44B47EB4F8AD7187C5DE6F990 /* Resources */ = {
+		5172DFED8FC15CD82AB06AEA45DA1D93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		427878CD5F29A155AECCE7B822CC5693 /* Sources */ = {
+		29D07005A5F53948381FC2FF91DA3421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886300E2F5DD2D1BD52E2CF7026BBE6E /* LinPodTestSDK-dummy.m in Sources */,
-				DB1C0136AA9685AF37D00AAA05284CA3 /* ReplaceMe.m in Sources */,
+				47625B2161E8768DB9C66C71EA1FB8AF /* LinPodTestSDK-dummy.m in Sources */,
+				08FC6A70DB86683AFBF37ACB343FC917 /* LinTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		187B0626C7DD7AC9D5BFAA19593E10AD /* PBXTargetDependency */ = {
+		33432E2428D70ACB426C5A52F563FFD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LinPodTestSDK;
 			target = 6948E08396A894A7FCA602CD3FBBC424 /* LinPodTestSDK */;
-			targetProxy = E59AB8B14595DF44ABD04BAAB1A6C67A /* PBXContainerItemProxy */;
+			targetProxy = 5D347955B57D1ECD0EE678D6EF72B2A7 /* PBXContainerItemProxy */;
 		};
-		D64F25941587286D273D4E1CFCF0A675 /* PBXTargetDependency */ = {
+		C4653E3A938C55F3738AD23DEF7F97E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LinPodTestSDK_Example";
 			target = E2E401C46C46A8C1FA95F56B9C2BA6AC /* Pods-LinPodTestSDK_Example */;
-			targetProxy = D39CAD0F7140F951DBEDBB6D892F3C78 /* PBXContainerItemProxy */;
+			targetProxy = C9303A26EEFE14FBDB3475598AFA74EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,36 +508,6 @@
 			};
 			name = Debug;
 		};
-		675D02544A99A39CB0A8C3C2E46A5D29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 088438829CEEED4C57E0C1C015D5F550 /* LinPodTestSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LinPodTestSDK/LinPodTestSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LinPodTestSDK/LinPodTestSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LinPodTestSDK/LinPodTestSDK.modulemap";
-				PRODUCT_MODULE_NAME = LinPodTestSDK;
-				PRODUCT_NAME = LinPodTestSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		69ABC76E567A038EF074DCE58722AF37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07C37B862741D3E2CBA6061A4F0A7A73 /* Pods-LinPodTestSDK_Example.release.xcconfig */;
@@ -600,9 +574,9 @@
 			};
 			name = Release;
 		};
-		BDD75983D679336493CBAF8968E12A45 /* Release */ = {
+		7FEA2DC3DB83AA6C814F5EAB58617988 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7556792F734B0F2DC0B1F0C72A69373 /* LinPodTestSDK.release.xcconfig */;
+			baseConfigurationReference = 94F64956217C7E1F93ADD9D39D9E4F70 /* LinPodTestSDK.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,6 +604,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9E0D4AD0182EBB304696A5E1F01AF5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA356E668162D0F5C26EC98A696429B /* LinPodTestSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LinPodTestSDK/LinPodTestSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinPodTestSDK/LinPodTestSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinPodTestSDK/LinPodTestSDK.modulemap";
+				PRODUCT_MODULE_NAME = LinPodTestSDK;
+				PRODUCT_NAME = LinPodTestSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -737,6 +741,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		43086DC17B84176CCE3DA4C6D500DE52 /* Build configuration list for PBXNativeTarget "LinPodTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0D4AD0182EBB304696A5E1F01AF5CB /* Debug */,
+				7FEA2DC3DB83AA6C814F5EAB58617988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,15 +764,6 @@
 			buildConfigurations = (
 				E2CD5B7E76096BFB109AE2AC9A15323E /* Debug */,
 				69ABC76E567A038EF074DCE58722AF37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E271E910B5D29CBB2D7F88F52C6DB51F /* Build configuration list for PBXNativeTarget "LinPodTestSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				675D02544A99A39CB0A8C3C2E46A5D29 /* Debug */,
-				BDD75983D679336493CBAF8968E12A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

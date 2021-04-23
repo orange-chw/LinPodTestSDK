@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LinTestObject.h"
 
 FOUNDATION_EXPORT double LinPodTestSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char LinPodTestSDKVersionString[];
